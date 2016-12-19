@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\SysThread">
+      <UniqueIdentifier>{bd4c0c4e-21fa-4200-bcc8-6e44eaec87c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{86188590-f99c-40e3-a1a5-5cbc9c1d940b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ThreadListSystem">
+      <UniqueIdentifier>{c945c334-a320-4d83-abdb-36c4564dd076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lock">
+      <UniqueIdentifier>{7cf112b0-c18b-44f1-8eb1-ac653f8aa8eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SysThread.cpp">
+      <Filter>src\SysThread</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadListSystem.cpp">
+      <Filter>src\ThreadListSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SysThread.h">
+      <Filter>src\SysThread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadListSystem.h">
+      <Filter>src\ThreadListSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>src\Lock</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
